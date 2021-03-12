@@ -1,0 +1,125 @@
+/*CSS Style for store layout(merch, row, col, card)*/
+	  @media only screen and (min-width: 992px){
+          .brand-logo{
+			padding-left: .5em !important;           
+          }
+        }
+    	#merch .col{
+        	padding: 1em;
+        	/*border: 5px solid green;**/         
+        }
+/*        #row.row{
+        	padding-top:1em;
+            padding-bottom:0;
+        }
+*/        
+        #footer-border{
+        background-image: url("http://practicewebpage.altervista.org/Images/Footer_image.svg");
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 100px;
+        background-color: white !important;
+        }
+        #signature.h4{
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        }
+        #merch .card-image.waves-effect{
+        overflow: initial;
+        }
+        #merch .card-content{
+        padding-top: 34px;
+        }
+        html, body{
+			min-height: 100vh;
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #ee6e73 !important;
+        }
+        body{
+        	position: relative;
+            padding-bottom: 12em;
+        }
+        #content{
+        	padding: 5em;
+        }
+               
+        .titleContainer{
+          background-image: url("https://th.bing.com/th/id/OIP.kX29rAD97PIbk1Pw6-NdOAHaHa?pid=ImgDet&rs=1") !important; 
+          text-align: center;
+          font-family: Alternate Gothic,script,Open Sans, Dosis;
+		  
+        }
+        #bufferZone-container1{
+        	padding-bottom: 1em !important;
+            padding-top: 1em !important;
+            font-weight: bold;
+            font-size: 1.5em;
+            text-align: center;
+            display: block;
+        }
+        #loginUser{
+			background-color:pink;
+            border:red solid 1px;
+            width:50%;
+            margin:auto;
+            text-align: center;
+        }
+        #registerUser{
+			background-color:pink;
+            border:red solid 1px;
+            width:50%;
+            margin:auto;
+            text-align: center;
+        }
+        /* #loginContainer{
+			background-color:yellow;
+            border:red solid 1px;
+            width:60%;
+            margin:auto;
+            display: left;
+        } */
+        /*#registerContainer{
+			background-color:yellow;
+            border:red solid 1px;
+            width:60%;
+            margin:auto;
+            display: right;
+        }*/
+        #loginContainer{
+            display: inline-block;
+            width: 200px;
+            height: 251px;
+            text-align: center;
+            opacity: 0.5;
+            padding: 5px;
+            border: 1px solid orange;  
+            background-color: red; 
+            transition: opacity 2s, background-color 2s;
+        }
+        #loginContainer:hover{
+        	opacity: 100%;
+          	background-color: orange;
+          }
+        #registerContainer{
+          display: inline-block;
+          width: 200px;
+          height: 580px;
+          padding: 5px;
+          text-align: center;
+          opacity: 0.5;
+          border: 1px solid red;    
+          background-color: orange; 
+          transition: opacity 2s, background-color 2s;
+        }
+        #registerContainer:hover{
+          opacity: 100%;
+          background-color: yellow;
+        }
