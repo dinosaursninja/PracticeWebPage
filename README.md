@@ -1,2 +1,2 @@
 # PracticeWebPage
-blank for now
+Group Project: e-commerce site ESC19
