@@ -1,4 +1,10 @@
-<?php require_once "Database_Function.php"; ?>
+<?php
+/*@Bruccy: Here is the trigger used in Project Action switch case,
+ that changes the login able when a user is in session.
+ also it takes care of showing the options to go to the other subpages
+ when the window changes size.*/
+require_once "Database_Function.php";
+?>
 
 <!--Materialize header has to start @top of body note to self-->
   <nav>

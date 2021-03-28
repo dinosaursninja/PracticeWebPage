@@ -1,3 +1,6 @@
 Database_User.php
 .idea
 roughDraftDB.php
+
+#@bruccy: this file is contains all of the files that are to be
+#ignored when uploading to Git.

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <?php
+/*@Bruccy this is the Login page which uses and is used in
+Project-Action.php and Project-Login.php */
 	session_start();
     date_default_timezone_set('America/New_York');
 ?>

@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <?php
+/*@Bruccy: This is the main page for the website.
+Everything, maning the sub-pages, lead back to this one.
+It is what you see when you first get to the site.*/
+
 session_start();
 date_default_timezone_set('America/New_York');
 ?>

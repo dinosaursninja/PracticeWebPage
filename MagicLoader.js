@@ -1,5 +1,7 @@
-//This creates a side navigator collapsible and functional, and shows my site under constr.
+/* @Bruccy: This creates a side navigator collapsible and functional, and shows my site under constr. */
+
 $(document).ready(function(){
+ */
   $('.sidenav').sidenav({draggable: true});
 
   // Site under construction message

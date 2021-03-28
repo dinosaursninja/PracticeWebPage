@@ -1,5 +1,7 @@
 <?php
-// @Bruccy: This page handles all of the actions for anytime the user clicks a submit button
+/* @Bruccy: This page handles all of the actions for anytime the user clicks a submit button
+at the moment (3/28), it is handling Project-Login.php,
+ which handles the info sent to the DB.*/
 
 //starts session & import db
 session_start();

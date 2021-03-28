@@ -1,4 +1,8 @@
 <?php
+/* @Bruccy: this file is to show you how it
+ should look when you open the Database_User file
+ just fill in the blank with your credentials */
+
 // This seperates the credentials for my db from the website -Bruccy
 // Put your own credentials here and change the file name to Database_User.php
 $servername = "";
@@ -7,3 +11,4 @@ $password = "";
 $dbName = "";
 
 ?>
+

@@ -1,5 +1,5 @@
 <?php
-// @Bruccy: conect with database first thing.Since this is repetitive we write a function
+// @Bruccy: connect with database first thing.Since this is repetitive we write a function
 include_once("Database_User.php");
 
 function My_Connect_DB(){
@@ -7,7 +7,7 @@ function My_Connect_DB(){
     not globally -- so we have to specify that the vars are global and to use those instead */
     global $servername, $username, $password, $dbName;
 
-    //establishes the connection with the host
+    //@Bruccy this establishes the connection with the host
     $connect = mysqli_connect($servername, $username, $password, $dbName); //mysqli is a specific library we are using
     if(!$connect){
     	die("Connection to DB failed: ".mysqli_connect_error()."<br/>");//if you cannot connect it will exit and display msg within. 
@@ -16,11 +16,11 @@ function My_Connect_DB(){
 } //end of function
 
 
-//THIS IS TO RUN SQL
+//@bruccy: THIS IS TO RUN SQL
 function My_SQL_EXE($connect, $sql){
 	$result = mysqli_query($connect, $sql);
     
-    //you must always check if connection failed or passed
+    //@Bruccy: you must always check if connection failed or passed
     if($result){
     	// echo " ";
         //echo "SQL is done successfully <br/>";

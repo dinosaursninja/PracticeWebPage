@@ -1,4 +1,8 @@
 <?php
+/*@Bruccy: This handles all of the Login specific functions
+that will be sent to the database.
+ The storage and handling of the information gathered and what to do with them.*/
+
 // DB CODE HERE
 session_start();
 date_default_timezone_set('America/New_York');
