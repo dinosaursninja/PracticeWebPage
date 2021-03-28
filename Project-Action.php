@@ -9,7 +9,7 @@ require_once "Project-Login.php";
 /* @Bruccy:
  * Request captures both post and get inputs for anything
  * involving the task keyword. The task keyword is going to
- * determine wether a registration or login is taking place
+ * determine whether a registration or login is taking place
  * for the login page and works in
  * conjuction with the Project_Login.php as well */
 $action = validate_input($_REQUEST["task"]);
@@ -22,7 +22,7 @@ $output = array(success => true, message => '', payload => array());
 //the output from the line above will end up printing as txt in the line below
 header("Content-Type: text/json");
 
-
+//START PRESENTATION HERE ------>
 /* @Bruccy:
 We are trimming/cleaning/ridding user answers of special characters
 to avoid sql injections and simultaneously

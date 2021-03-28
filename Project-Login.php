@@ -5,6 +5,7 @@ date_default_timezone_set('America/New_York');
 
 require_once "Database_Function.php";
 
+/*
 if(isset($_POST["submit"]))
 {
 	$username = validate_input($_POST["username"]);
@@ -14,6 +15,7 @@ if(isset($_POST["submit"]))
     $matchPassword = validate_input($_POST["matchPassword"]);
     $email = validate_input($_POST["email"]);
 }
+*/
 
 /* This method will check that all of the variables relating to registration are set.
 This function returns true if everything goes smoothly and if it does not, then a message will be returned/shown to the user. */

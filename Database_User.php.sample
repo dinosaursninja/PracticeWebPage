@@ -1,0 +1,9 @@
+<?php
+// This seperates the credentials for my db from the website -Bruccy
+// Put your own credentials here and change the file name to Database_User.php
+$servername = "";
+$username = "";
+$password = "";
+$dbName = "";
+
+?>

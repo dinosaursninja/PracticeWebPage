@@ -48,7 +48,7 @@
         <div id="registerUser">	
           <form method="post" action="Project-Action.php">
 			Username: <input type="text" name="username" class="validate" required="" aria-required="true"><br/><br/>
-            First Name: <input type="text" name="firstName" class="validate" required="" aria-required="true"class="validate" required="" aria-required="true">
+            First Name: <input type="text" name="firstName" class="validate" required="" aria-required="true">
             Last Name: <input type="text" name="lastName">
             Password: <input type="password" name="password" class="validate" required="" aria-required="true"> Match Password: <input type="password" name="matchPassword" class="validate" required="" aria-required="true"><br/><br/><br/>
             <input type="hidden" name="task" value="register">  <!--this is what allows/triggers the switch case for register in the action page -->
