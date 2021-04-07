@@ -117,15 +117,9 @@
     
     <div class="comparePage">
     	<h5>
-        	Plans:<br>
-            This should display all chosen comparable elements<br>
-            maybe display in a chart side by side with key details<br>
-            have the option go to back to main page , add to cart <br>
-            and the option to remove from comparables. Also it should redirect to each indv.<br>
-            item page if it has been chosen/clicked on explpicitly.
-        </h5>
+
         <h5>
-        	Generate items dynamically using php for second demo.
+        	Plans: Generate items dynamically using php for second demo.
             
         </h5>
     </div>
